@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const apiUrl = 'https://digitaldoctor.stackroute.io/appointmentservice';
+const apiUrl = 'http://3.145.146.35:3000/appointmentservice';
 class AppointmentService {
     getSlots(email) {
         // return axios.get('http://localhost:3000/availableSlots');
